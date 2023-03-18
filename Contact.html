@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+  </head>
+
+  <body>
+    <h1>Sign-up Form</h1>
+    <form action="mailto:ritwikbasnet@gmail.com" enctype="text/plain">
+      <fieldset>
+        <legend>Sign-up From</legend>
+        <p>
+          <label for="name">Full Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter your full name" required>
+        </p>
+
+        <p>
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+        </p>
+
+        <p>
+          <label for="pass">Password</label>
+          <input type="password" name="pass" id="pass" required placeholder="Enter a strong password">
+        </p>
+
+        <p>
+        <p>Select Your Gender</p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="radio">Others</label>
+        <input type="radio" name="gender" id="others" value="others">
+        </p>
+
+        <p>
+          <label for="date">Date Of Birth</label>
+          <input type="date" id="date" name="date">
+        </p>
+
+        <p>
+        <p>Select Your Hobbies</p>
+        <label for="dance">Dancing</label>
+        <input type="checkbox" name="dance" id="dance">
+        <label for="sing">Singing</label>
+        <input type="checkbox" name="sing" id="sing">
+        <label for="play">Playing</label>
+        <input type="checkbox" name="play" id="play">
+        <label for="sleep">Sleeping</label>
+        <input type="checkbox" name="sleep" id="sleep">
+        </p>
+
+        <p>
+          <label for="file">Select Your DP</label>
+          <input type="file">
+        </p>
+
+        <p>
+          <label for="fav">Favourite Coffee</label>
+          <select name="fav" id="fav">
+            <optgroup label="Iced Coffee">
+              <option value="Iced Latee">Iced Latte</option>
+              <option value="Iced Americano">Iced Americano</option>
+              <option value="Iced Mocha">Iced Mocha</option>
+              <option value="Iced Dopio">Iced Dopio</option>
+            </optgroup>
+
+            <optgroup label="Hot Coffee">
+              <option value="Hot Latee">Latte</option>
+              <option value="Hot Americano">Americano</option>
+              <option value="Hot Mocha">Mocha</option>
+              <option value="Hot Dopio">Dopio</option>
+            </optgroup>
+          </select>
+        </p>
+
+        <p>
+          <label for="text">A little bit about your self</label>
+          <br>
+          <textarea name="text" id="text" cols="30" rows="10" maxlength="100"></textarea>
+        </p>
+
+        <p>
+          <button type="reset">Reset</button>
+          <button type="Submit">Submit</button>
+        </p>
+
+
+
+
+      </fieldset>
+    </form>
+  </body>
+
+</html>
